@@ -1,5 +1,5 @@
 @echo off
-
+set batchSaveLocation=%cd%
 goto :beginning
 
 :beginning
@@ -105,11 +105,11 @@ echo Why are you even here then? It seems like you don't need this program.
 goto :seeya
 
 :seeya
-if EXIST diskpart.txt (del diskpart.txt)
-if EXIST diskpart2.txt (del diskpart2.txt)
-if EXIST diskpartDel.txt (del diskpartDel.txt)
-if EXIST dispartDel2.txt (del diskpartDel2.txt)
-if EXIST diskpartDel3.txt (del diskpartDel3.txt)
+if EXIST %batchSaveLocation%\diskpart.txt (del %batchSaveLocation%\diskpart.txt)
+if EXIST %batchSaveLocation%\diskpart2.txt (del %batchSaveLocation%\diskpart2.txt)
+if EXIST %batchSaveLocation%\diskpartDel.txt (del %batchSaveLocation%\diskpartDel.txt)
+if EXIST %batchSaveLocation%\dispartDel2.txt (del %batchSaveLocation%\diskpartDel2.txt)
+if EXIST %batchSaveLocation%\diskpartDel3.txt (del %batchSaveLocation%\diskpartDel3.txt)
 echo Goodbye.
 exit /b 0
 
