@@ -1,5 +1,6 @@
 #!/bin/bash
 # My first script
+# UCM_SSH is a /very/ simple script that prompts for the user's username and then connects to UC Merced's EngApps SSH server, and starts bash as soon as the connection is successful.
 echo -n "Enter your username > "
 read username
 ssh $username@engapps00.ucmerced.edu -t 'command; bash'
