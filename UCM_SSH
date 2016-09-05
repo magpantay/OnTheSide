@@ -1,0 +1,5 @@
+#!/bin/bash
+# My first script
+echo -n "Enter your username > "
+read username
+ssh $username@engapps00.ucmerced.edu -t 'command; bash'
