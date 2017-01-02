@@ -93,7 +93,7 @@ void play()
       continue;
     }
 
-    else if ((!currentInput.compare("take off pants") || !currentInput.compare("take pants off")) && !sittingOnToilet)
+    else if ((!currentInput.compare("take off pants") || !currentInput.compare("take pants off")) && !sittingOnToilet && !pantsOff)
     {
       cout << "You take off your pants." << endl;
       pantsOff = true;
@@ -101,9 +101,16 @@ void play()
       continue;
     }
 
-    else if ((!currentInput.compare("take off pants") || !currentInput.compare("take pants off")) && sittingOnToilet)
+    else if ((!currentInput.compare("take off pants") || !currentInput.compare("take pants off")) && sittingOnToilet && !pantsOff)
     {
       cout << "You try to take off your pants while sitting on the toilet, but are failing." << endl;
+      cout << --turnsLeft << " turns left." << endl;
+      continue;
+    }
+
+    else if ((!currentInput.compare("take off pants") || !currentInput.compare("take pants off")) && pantsOff)
+    {
+      cout << "Your pants are already off." << endl;
       cout << --turnsLeft << " turns left." << endl;
       continue;
     }
@@ -172,7 +179,7 @@ void die(bool pantsOff)
 {
   if (!pantsOff)
   {
-    cout << "You died. But not before you feel yourself poopting your pants." << endl;
+    cout << "You died. But not before you feel yourself pooping your pants." << endl;
     gameOver();
   }
 
@@ -187,25 +194,25 @@ void poop(bool sittingOnToilet, bool pantsOff)
 {
   if (!sittingOnToilet && !pantsOff)
   {
-    cout << "You shat your pants." << endl;
+    cout << "You pooped your pants." << endl;
     gameOver();
   }
 
   else if (!sittingOnToilet && pantsOff)
   {
-    cout << "You shat on the floor, but I guess that's a victory since you didn't poop your pants!" << endl;
+    cout << "You pooped on the floor, but I guess that's a victory since you didn't poop your pants!" << endl;
     gameOver();
   }
 
   else if (sittingOnToilet && !pantsOff)
   {
-    cout << "You were so close, but yet so far. You forgot to remove your pants before poopting. Whoops." << endl;
+    cout << "You were so close, but yet so far. You forgot to remove your pants before pooping. Whoops." << endl;
     gameOver();
   }
 
   else
   {
-    cout << "Hooray! Congratulations, you've successfully avoided poopting your pants!" << endl;
+    cout << "Hooray! Congratulations, you've successfully avoided pooping your pants!" << endl;
     gameOver();
   }
 }
@@ -219,7 +226,7 @@ void outOfTurns(bool pantsOff)
   }
   else
   {
-    cout << "You've run out of turns to try to save yourself. You ended up poopting your pants." << endl;
+    cout << "You've run out of turns to try to save yourself. You ended up pooping your pants." << endl;
     gameOver();
   }
 }
@@ -230,13 +237,13 @@ void fart(bool isSoft, bool sittingOnToilet, bool pantsOff)
   {
     if (pantsOff && sittingOnToilet)
     {
-      cout << "You had already farted, so another fart made you end up poopting. But you still managed to correctly poop in the correct place." << endl;
+      cout << "You had already farted, so another fart made you end up pooping. But you still managed to correctly poop in the correct place." << endl;
       gameOver();
     }
 
     else if (pantsOff && !sittingOnToilet)
     {
-      cout << "You had already farted, so another fart made you end up poopting. But at least your pants were off." << endl;
+      cout << "You had already farted, so another fart made you end up pooping. But at least your pants were off." << endl;
       gameOver();
     }
 
@@ -248,7 +255,7 @@ void fart(bool isSoft, bool sittingOnToilet, bool pantsOff)
 
     else
     {
-      cout << "You had already farted, so another fart made you end up poopting your pants." << endl;
+      cout << "You had already farted, so another fart made you end up pooping your pants." << endl;
       gameOver();
     }
   }
@@ -263,7 +270,7 @@ void fart(bool isSoft, bool sittingOnToilet, bool pantsOff)
 
     else if (pantsOff && !sittingOnToilet)
     {
-      cout << "You pushed too hard, but ended up not poopting your pants. Hooray?" << endl;
+      cout << "You pushed too hard, but ended up not pooping your pants. Hooray?" << endl;
       gameOver();
     }
 
@@ -275,7 +282,7 @@ void fart(bool isSoft, bool sittingOnToilet, bool pantsOff)
 
     else
     {
-      cout << "You pushed too hard, and ended up poopting your pants." << endl;
+      cout << "You pushed too hard, and ended up pooping your pants." << endl;
       gameOver();
     }
   }
