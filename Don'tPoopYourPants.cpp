@@ -82,7 +82,7 @@ void play()
     {
       cout << "You lightly let out some gas, relief!" << endl;
       alreadyFarted = true;
-      cout << --turnsLeft << " turns left." << endl;
+      cout << ++turnsLeft << " turns left." << endl;
       continue;
     }
 
