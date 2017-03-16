@@ -91,8 +91,8 @@ void output(vector <string> & inputs, string filename)
   fileOut.open(filename.c_str());
   for (int i = 0; i < inputs.size(); i++)
   {
-      fileOut << inputs[i] << endl; //might as well output to file as well
-      cout << inputs[i];
+      fileOut << inputs[i] << endl; //might as well output to file as well, needs endl here since '\n' doesn't translate well into text files
+      cout << inputs[i]; //no need for endl here, since there are '\n' in the string vector
   }
   fileOut << endl;
   cout << endl;
