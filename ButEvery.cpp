@@ -15,7 +15,7 @@ void outsideFile(string filename, string & finalProduct)
   {
     throw "Non-existent file! Try again.\n";
   }
-
+  finalProduct = "";
   while (!(IRWFN.eof()))
   {
     getline(IRWFN, buffer);
