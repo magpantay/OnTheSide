@@ -35,7 +35,7 @@ Another thing that's different is that if the computer isn't trusted, you will n
 After that, you should just be able to follow the instructions above to restore your screen resolution.
 
 # Solution 2
-**NOTE: This solution will cause all data to be lost, and should only be considered as a last resort.**
+**NOTE: This solution will cause all data to be lost!**
 
 ### Things Needed
    - Computer
