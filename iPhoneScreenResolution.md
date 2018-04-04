@@ -16,14 +16,14 @@ Well, it seems that changing your resolution still stays even when you're phone 
 ##### If you have no passcode/have a passcode but did not restart after changing resolution
 That makes this process significantly easier. You would need to do the following:
 1. Enable voiceover via asking Siri
- - Remember that with voiceover on, you can tap on something once to get that thing read to you, and tap twice on a button to actually perform the action. 
+   - Remember that with voiceover on, you can tap on something once to get that thing read to you, and tap twice on a button to actually perform the action. 
 2. Install 3uTools
 3. Connect iDevice to computer and trust the computer if it isn't already (using voiceover to find which button you're on)
 4. Click on Toolbox > Realtime screen
- - Now you'll be able to see your screen on your computer
+   - Now you'll be able to see your screen on your computer
 5. Change the screen resolution to a known safe screen resolution, found [here](https://developer.apple.com/library/content/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/Displays/Displays.html)
 6. Your iDevice should now be showing picture, and you're all done!
-- Note that afterwards, you may need to set your resolution higher as iOS seems to run at a higher resolution than found on Apple's website. For instance, the iPhone 7+ seems to run at 2208x1242, even though the Apple website states it's 1920x1080.
+  - Note that afterwards, you may need to set your resolution higher as iOS seems to run at a higher resolution than found on Apple's website. For instance, the iPhone 7+ seems to run at 2208x1242, even though the Apple website states it's 1920x1080.
 
 ##### If you have a passcode and restarted after changing resolution
 The process gets harder as you will need to type your passcode basically blindly for the first time (as TouchID/FaceID is disabled for the first time after a restart). I recommend disabling vibrate so that you can at least hear that you're tapping on a number/letter.
@@ -65,6 +65,6 @@ So, you've come to the point where you're, for whatever reason:
 - not able to remotely erase your iDevice via iCloud
 
 There's only one thing now, and that's an iTunes restore. This will update your iOS version, so you may not be able to jailbreak your iDevice anymore after this process. 
-- (Unless you have blobs saved, then you might be able to install an unsigned iOS version)
+  - (Unless you have blobs saved, then you might be able to install an unsigned iOS version)
 
 But after this, everything should be restored to default settings and your screen should now be able to display picture once again.
