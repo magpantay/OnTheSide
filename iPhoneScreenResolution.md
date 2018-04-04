@@ -23,7 +23,7 @@ That makes this process significantly easier. You would need to do the following
    - Now you'll be able to see your screen on your computer
 5. Change the screen resolution to a known safe screen resolution, found [here](https://developer.apple.com/library/content/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/Displays/Displays.html)
 6. Your iDevice should now be showing picture, and you're all done!
-  - Note that afterwards, you may need to set your resolution higher as iOS seems to run at a higher resolution than found on Apple's website. For instance, the iPhone 7+ seems to run at 2208x1242, even though the Apple website states it's 1920x1080.
+   - Note that afterwards, you may need to set your resolution higher as iOS seems to run at a higher resolution than found on Apple's website. For instance, the iPhone 7+ seems to run at 2208x1242, even though the Apple website states it's 1920x1080.
 
 ##### If you have a passcode and restarted after changing resolution
 The process gets harder as you will need to type your passcode basically blindly for the first time (as TouchID/FaceID is disabled for the first time after a restart). I recommend disabling vibrate so that you can at least hear that you're tapping on a number/letter.
