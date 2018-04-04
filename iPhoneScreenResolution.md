@@ -34,7 +34,7 @@ Another thing that's different is that if the computer isn't trusted, you will n
 After that, you should just be able to follow the instructions above to restore your screen resolution.
 
 # Solution 2
-##### NOTE: This solution will cause all data to be lost, and should only be considered a last resort.
+**NOTE: This solution will cause all data to be lost, and should only be considered a last resort.**
 
 ### Things Needed
  - Computer
@@ -52,17 +52,17 @@ You would need to do the following:
 7. After this process, you screen should now display correctly, and you'll now have to re-install everything and re-jailbreak (if applicable).
 
 # "Solution" 3
-##### NOTE: This solution will also cause all data to be lost, but this is when even Solution 2 isn't able to be used.
+**NOTE: This solution will also cause all data to be lost, but this is when even Solution 2 isn't able to be used.**
 
 ### Things Needed
  - Lightning cable (or 30-pin cable if your iDevice is *that* old)
  - Computer
 
-So, you've come to the point where you're, for whatever reason:
-   - not able to get into your iPhone at all
-   - not able to remotely erase your iDevice via iCloud
+So, you've come to a point where you're, for whatever reason:
+   - Not able to get into your iPhone at all
+   - Not able to remotely erase your iDevice via iCloud
 
 There's only one thing now, and that's an iTunes restore. This will update your iOS version, so you may not be able to jailbreak your iDevice anymore after this process. 
-   - (Unless you have blobs saved, then you might be able to install an unsigned iOS version)
+   - Unless you have blobs saved, then you *might* be able to install an unsigned iOS version
 
 But after this, everything should be restored to default settings and your screen should now be able to display picture once again.
