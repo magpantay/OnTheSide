@@ -28,7 +28,10 @@ That makes this process significantly easier. You would need to do the following
 #### If you have a passcode and restarted after changing resolution
 The process gets harder as you will need to type your passcode basically blindly for the first time (as TouchID/FaceID is disabled for the first time after a restart). I recommend disabling vibrate so that you can at least hear that you're tapping on a number/letter.
 I also recommend looking at a picture of the [passcode lockscreen](https://media.idownloadblog.com/wp-content/uploads/2017/06/Creamy-iOS-10-Lighter-Cream.jpg) or [password lockscreen](https://img.gadgethacks.com/img/88/42/63559176523076/0/set-alphanumeric-lock-screen-passcode-for-stronger-security-your-iphone.w1456.jpg).
-This may take more than one try (for me, it took 9 tries. I got locked out for a frustratingly long time). You are able to verify you've gotten to the home screen by locking your phone and listening for the locking sound.
+This may take more than one try 
+   - It took me 9 whole tries to get my passcode right! I got locked out for a frustratingly long time.
+   
+You are able to verify you've gotten to the home screen by locking your phone and listening for the locking sound.
 
 Another thing that's different is that if the computer isn't trusted, you will not only need to tap "Trust This Computer", but you will also have to enter your passcode as an extra security measure. This one shouldn't be as difficult if you've enabled voiceover.
 After that, you should just be able to follow the instructions above to restore your screen resolution.
