@@ -27,7 +27,7 @@ That makes this process significantly easier. You would need to do the following
 
 #### If you have a passcode and restarted after changing resolution
 The process gets harder as you will need to type your passcode basically blindly for the first time (as TouchID/FaceID is disabled for the first time after a restart). I recommend disabling vibrate so that you can at least hear that you're tapping on a number/letter.
-I also recommend looking at a picture of the [passcode lockscreen](https://media.idownloadblog.com/wp-content/uploads/2017/06/Creamy-iOS-10-Lighter-Cream.jpg) or [password lockscreen](https://img.gadgethacks.com/img/88/42/63559176523076/0/set-alphanumeric-lock-screen-passcode-for-stronger-security-your-iphone.w1456.jpg). This may take more than one try. \n
+I also recommend looking at a picture of the [passcode lockscreen](https://media.idownloadblog.com/wp-content/uploads/2017/06/Creamy-iOS-10-Lighter-Cream.jpg) or [password lockscreen](https://img.gadgethacks.com/img/88/42/63559176523076/0/set-alphanumeric-lock-screen-passcode-for-stronger-security-your-iphone.w1456.jpg). This may take more than one try.
 
 (Also, I'm not sure if the touch input still stays the same; I personally set my screen resolution too high and mixed the height and width values, but the number placement on my iPhone 7+ was still seemingly the same.)
    
