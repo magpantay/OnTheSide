@@ -9,9 +9,9 @@ Well, it seems that changing your resolution still stays even when you're phone 
 # Solution 1
 
 ### Things Needed
- - Lightning cable (or 30-pin cable if your iDevice is *that* old)
- - Computer
- - [3uTools](http://www.3u.com/)
+   - Lightning cable (or 30-pin cable if your iDevice is *that* old)
+   - Computer
+   - [3uTools](http://www.3u.com/)
 
 #### If you have no passcode/have a passcode but did not restart after changing resolution
 That makes this process significantly easier. You would need to do the following:
@@ -37,7 +37,7 @@ After that, you should just be able to follow the instructions above to restore 
 **NOTE: This solution will cause all data to be lost, and should only be considered as a last resort.**
 
 ### Things Needed
- - Computer
+   - Computer
 
 So, you're not able to get your passcode, but you don't want to update your phone since that update may render your phone unjailbreakable? Well, there seems to be an answer to that; however, it resets your phone completely.
 If you have "Find My iPhone" enabled (which seems to be enabled by default after signing in with your Apple account), you should be able to remotely reset your phone, which is the equivalent of the "Erase All Contents and Settings" button on the Settings app. This process should keep your iOS version the same.
@@ -55,8 +55,8 @@ You would need to do the following:
 **NOTE: This solution will also cause all data to be lost, and should only be considered if neither solution works for you.**
 
 ### Things Needed
- - Lightning cable (or 30-pin cable if your iDevice is *that* old)
- - Computer
+   - Lightning cable (or 30-pin cable if your iDevice is *that* old)
+   - Computer
 
 So, you've come to a point where you're, for whatever reason:
    - Not able to get into your iPhone at all
