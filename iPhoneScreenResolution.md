@@ -9,9 +9,9 @@ Well, it seems that changing your resolution still stays even when you're phone 
 # Solution 1
 
 ### Things Needed
-- Lightning cable (or 30-pin cable if your iDevice is *that* old)
-- Computer
-- [3uTools](http://www.3u.com/)
+ - Lightning cable (or 30-pin cable if your iDevice is *that* old)
+ - Computer
+ - [3uTools](http://www.3u.com/)
 
 ##### If you have no passcode/have a passcode but did not restart after changing resolution
 That makes this process significantly easier. You would need to do the following:
@@ -36,7 +36,7 @@ After that, you should just be able to follow the instructions above to restore 
 # Solution 2
 
 ### Things Needed
-- Computer
+ - Computer
 
 Note: This solution will cause all data to be lost, and should only be considered a last resort.
 
@@ -55,16 +55,16 @@ You would need to do the following:
 # "Solution" 3
 
 ### Things Needed
-- Lightning cable (or 30-pin cable if your iDevice is *that* old)
-- Computer
+ - Lightning cable (or 30-pin cable if your iDevice is *that* old)
+ - Computer
 
 Note: This solution will also cause all data to be lost, but this is when even Solution 2 isn't able to be used.
 
 So, you've come to the point where you're, for whatever reason:
-- not able to get into your iPhone at all
-- not able to remotely erase your iDevice via iCloud
+   - not able to get into your iPhone at all
+   - not able to remotely erase your iDevice via iCloud
 
 There's only one thing now, and that's an iTunes restore. This will update your iOS version, so you may not be able to jailbreak your iDevice anymore after this process. 
-  - (Unless you have blobs saved, then you might be able to install an unsigned iOS version)
+   - (Unless you have blobs saved, then you might be able to install an unsigned iOS version)
 
 But after this, everything should be restored to default settings and your screen should now be able to display picture once again.
